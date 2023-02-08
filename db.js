@@ -5,9 +5,9 @@ const { MYSQL_USERNAME, MYSQL_PASSWORD, MYSQL_ADDRESS = "" } = process.env;
 
 const [host, port] = MYSQL_ADDRESS.split(":");
 
-const sequelize = new Sequelize("nodejs_demo", MYSQL_USERNAME, MYSQL_PASSWORD, {
-  host,
-  port,
+const sequelize = new Sequelize("nodejs_demo", 'root', 'qwer@123123', {
+  host: 'sh-cynosdbmysql-grp-mt21sa7w.sql.tencentcdb.com',
+  port: 25858,
   dialect: "mysql" /* one of 'mysql' | 'mariadb' | 'postgres' | 'mssql' */,
 });
 
