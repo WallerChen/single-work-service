@@ -1,8 +1,7 @@
 'use strict';
 
-module.exports = async app => {
+module.exports = app => {
   const { STRING, INTEGER, DATE, TEXT } = app.Sequelize;
-
   const User = app.model.define('user', {
     id: { type: INTEGER, primaryKey: true, autoIncrement: true },
     name: STRING(30),
@@ -22,7 +21,14 @@ module.exports = async app => {
     created_at: DATE,
     updated_at: DATE,
   });
-  await User.sync({ alter: true });
+  (async() => {
+    await User.sync({ alter: true });
+  })()
+  //
+  // console.log(app.Sequelize);
+  console.log('app.model.user:' + app.model.User);
+  console.log(User  === app.model.User);
+  // User.create({ name: "Jane" , nick_name: "123123"});
   console.log('用户表同步！');
   return User;
 };

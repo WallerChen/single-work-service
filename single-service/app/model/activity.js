@@ -17,6 +17,8 @@ module.exports = async app => {
     updated_at: DATE,
   });
   await Activity.sync({ alter: true });
+  // console.log(Object.keys(app.Sequelize));
+  // console.log(Activity === app.Sequelize.models.activity); // true
   console.log('活动表同步！');
   return Activity;
 };

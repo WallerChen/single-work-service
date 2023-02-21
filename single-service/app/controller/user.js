@@ -14,7 +14,10 @@ class UserController extends Controller {
       limit: toInt(ctx.query.limit),
       offset: toInt(ctx.query.offset),
     };
-    ctx.body = await ctx.model.User.findAll(query);
+    
+    // ctx.body = ctx.models;
+    console.log('ctx.model.User:' + ctx.model.User);
+    ctx.body = await ctx.model.User.create({ name: "Jane" , nick_name: "123123"});
   }
 
   async show() {

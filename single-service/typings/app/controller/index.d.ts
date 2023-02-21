@@ -1,11 +1,11 @@
-// This file is created by egg-ts-helper@1.34.6
+// This file is created by egg-ts-helper@1.34.7
 // Do not modify this file!!!!!!!!!
 /* eslint-disable */
 
 import 'egg';
-import ExportActivity = require('../../../../app/controller/activity');
-import ExportHome = require('../../../../app/controller/home');
-import ExportUser = require('../../../../app/controller/user');
+import ExportActivity = require('../../../app/controller/activity');
+import ExportHome = require('../../../app/controller/home');
+import ExportUser = require('../../../app/controller/user');
 
 declare module 'egg' {
   interface IController {

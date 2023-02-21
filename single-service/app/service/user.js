@@ -12,7 +12,10 @@ class User extends Service {
   }
 
   async find(id) {
-    const user = await this.ctx.model.User.findByPk(id);
+    // console.log(this.ctx);
+    // console.log(this.ctx.model);
+    console.log(this.ctx.model.User);
+    const user = await this.ctx.model.User.create({name :' 2323'});
     if (!user) {
       this.ctx.throw(404, 'user not found');
     }
