@@ -59,7 +59,8 @@ export default (appInfo: EggAppInfo) => {
           },
         ], // Cacution: security is array type
       },
-    },
+    }
+    ,
     sequelize: {
       dialect: 'mysql', // support: mysql, mariadb, postgres, mssql
       database: 'school_yearbook',
