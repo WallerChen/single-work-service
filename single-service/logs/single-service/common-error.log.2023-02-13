@@ -1,0 +1,57 @@
+2023-02-13 14:36:21,865 ERROR 47036 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'111.206.214.33' (using password: NO)
+    at ConnectionManager.connect (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:94:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ConnectionManager._connect (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/sequelize/lib/sequelize.js:456:5)
+    at async authenticate (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-sequelize/lib/loader.js:134:7)
+    at async authenticate (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-sequelize/lib/loader.js:142:7)
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'111.206.214.33' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'111.206.214.33' (using password: NO)"}
+pid: 47036
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-13 20:05:04,468 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 139562ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-13 20:28:59,576 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 1322332ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-13 22:40:56,829 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 7213704ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-13 22:57:12,276 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 934798ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 00:08:11,283 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 4237431ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+

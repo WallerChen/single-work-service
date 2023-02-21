@@ -1,0 +1,568 @@
+2023-02-14 00:20:26,357 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 635182ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 00:28:18,787 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 431877ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 00:33:58,849 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 299797ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 00:39:37,437 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 297830ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 00:45:22,038 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 304047ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 00:51:01,939 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 299586ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 00:56:40,877 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 298387ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 01:02:20,217 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 298745ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 01:07:59,793 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 299526ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 01:13:39,353 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 299013ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 01:19:18,340 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 298465ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 01:25:01,217 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 302277ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 01:30:40,610 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 299222ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 03:31:10,402 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 7189010ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 03:36:52,117 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 301538ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 05:37:21,919 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 7208606ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 05:43:01,182 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 299024ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 07:43:29,305 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 7207266ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 07:49:10,256 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 300349ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 07:54:50,870 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 300298ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 08:00:31,248 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 300210ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 08:42:00,921 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 2469303ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 08:53:13,175 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 631413ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-14 09:58:24,227 ERROR 47395 nodejs.ClusterClientNoResponseError: client no response in 3910225ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 47395
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 16:42:19,328 ERROR 44051 nodejs.ReferenceError: User is not defined
+    at module.exports (/Users/chenweirui/Desktop/单身同学录/single-service/app/model/activity.js:19:3)
+    at initializer (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-sequelize/lib/loader.js:111:18)
+    at getExports (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/file_loader.js:202:15)
+    at FileLoader.parse (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/egg_loader.js:393:25)
+    at loadDatabase (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-sequelize/lib/loader.js:101:16)
+    at module.exports (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-sequelize/lib/loader.js:32:20)
+    at module.exports (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-sequelize/app.js:4:26)
+    at Hook.configDidLoad (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/lifecycle.js:99:9)
+
+pid: 44051
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 17:26:24,484 ERROR 44166 [-/127.0.0.1/-/86ms GET /activity] nodejs.TypeError: Cannot read properties of undefined (reading 'findAll')
+    at ActivityController.index (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/activity.js:17:41)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 44166
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 17:26:40,231 ERROR 44166 [-/127.0.0.1/-/1ms GET /activity/show] nodejs.TypeError: Cannot read properties of undefined (reading 'findByPk')
+    at ActivityController.show (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/activity.js:22:41)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 44166
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 17:26:47,293 ERROR 44166 [-/127.0.0.1/-/2ms GET /activity/create] nodejs.TypeError: Cannot read properties of undefined (reading 'findByPk')
+    at ActivityController.show (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/activity.js:22:41)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 44166
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:02:51,602 ERROR 43679 nodejs.ClusterClientNoResponseError: client no response in 75493ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 43679
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:26:43,399 ERROR 43679 nodejs.ClusterClientNoResponseError: client no response in 1411612ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 43679
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:35:43,264 ERROR 73194 [-/127.0.0.1/-/3ms GET /activity/create] nodejs.TypeError: Cannot read properties of undefined (reading 'findByPk')
+    at ActivityController.show (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/activity.js:22:41)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 73194
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:35:47,450 ERROR 73194 [-/127.0.0.1/-/1ms GET /activity/create] nodejs.TypeError: Cannot read properties of undefined (reading 'findByPk')
+    at ActivityController.show (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/activity.js:22:41)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 73194
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:35:59,504 ERROR 73194 [-/127.0.0.1/-/1ms GET /activity/create] nodejs.TypeError: Cannot read properties of undefined (reading 'findByPk')
+    at ActivityController.show (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/activity.js:22:41)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 73194
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:36:28,285 ERROR 73194 [-/127.0.0.1/-/3ms POST /activity] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at ActivityController.create (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/activity.js:28:47)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 73194
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:38:56,434 ERROR 73194 [-/127.0.0.1/-/15ms POST /activity] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at ActivityController.create (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/activity.js:28:47)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 73194
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:39:01,162 ERROR 73194 [-/127.0.0.1/-/24ms POST /activity] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at ActivityController.create (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/activity.js:28:47)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 73194
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:39:06,626 ERROR 73194 [-/127.0.0.1/-/2ms POST /activity] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at ActivityController.create (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/activity.js:28:47)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 73194
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:39:19,519 ERROR 73194 [-/127.0.0.1/-/4ms POST /activity] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at ActivityController.create (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/activity.js:28:47)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 73194
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:39:54,514 ERROR 73735 [-/127.0.0.1/-/33ms POST /activity] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at ActivityController.create (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/activity.js:28:47)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 73735
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:40:51,237 ERROR 73877 [-/127.0.0.1/-/25ms POST /activity] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at ActivityController.create (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/activity.js:28:47)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 73877
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:40:59,954 ERROR 73877 [-/127.0.0.1/-/2ms POST /activity] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at ActivityController.create (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/activity.js:28:47)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 73877
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:41:11,208 ERROR 73877 [-/127.0.0.1/-/3ms POST /users] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at UserController.create (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/user.js:28:39)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 73877
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:41:19,880 ERROR 73906 [-/127.0.0.1/-/37ms POST /users] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at UserController.create (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/user.js:28:39)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 73906
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:43:52,905 ERROR 74127 [-/127.0.0.1/-/26ms POST /users] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at UserController.create (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/user.js:28:39)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 74127
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:44:46,411 ERROR 74247 [-/127.0.0.1/-/30ms POST /users] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at UserController.create (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/user.js:28:39)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 74247
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:48:04,705 ERROR 74778 [-/127.0.0.1/-/34ms POST /users] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at UserController.create (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/user.js:28:39)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 74778
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:48:47,521 ERROR 74824 [-/127.0.0.1/-/36ms POST /users] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at UserController.create (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/user.js:28:39)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 74824
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:49:49,976 ERROR 74824 [-/127.0.0.1/-/1ms GET /users] nodejs.TypeError: Cannot read properties of undefined (reading 'findAll')
+    at UserController.index (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/user.js:17:37)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 74824
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:49:59,820 ERROR 74824 [-/127.0.0.1/-/2ms GET /users?limit=1&offset=3] nodejs.TypeError: Cannot read properties of undefined (reading 'findAll')
+    at UserController.index (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/user.js:17:37)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 74824
+hostname: chenweiruideMacBook-Pro-3.local
+
+2023-02-21 20:54:33,346 ERROR 75607 [-/127.0.0.1/-/39ms POST /users] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at UserController.create (/Users/chenweirui/Desktop/单身同学录/single-service/app/controller/user.js:28:41)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:45:18)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:44:32)
+    at /Users/chenweirui/Desktop/单身同学录/single-service/node_modules/koa-compose/index.js:36:12
+
+pid: 75607
+hostname: chenweiruideMacBook-Pro-3.local
+
