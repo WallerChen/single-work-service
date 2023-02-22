@@ -2,7 +2,35 @@
 
 const Service = require('egg').Service;
 
+const { checkUserHaveLook } = require('../utils/auth');
+const { RES } = require('../utils/general');
+
+
 class User extends Service {
+  // 根据openID查找相关用户
+  async getUser({ openid }) {
+    return this.ctx.model.User.findOne({ where: { openid } });
+  }
+  //  小程序客户端相关
+  async cardList({ offset, limit, openid, cls }) {
+    const canShow = await checkUserHaveLook(this.ctx, openid, cls);
+    if (canShow) {
+      const result = await this.ctx.model.User.findAndCountAll({
+        attributes: [ 'nick_name', 'sex', 'desc', 'class', 'image_list' ],
+        where: {
+          collection: cls,
+        },
+        offset,
+        limit,
+        order: [[ 'created_at', 'desc' ], [ 'id', 'desc' ]],
+      });
+      RES.data = result;
+      return RES;
+    }
+    return RES;
+  }
+
+  // 运营管理相关
   async list({ offset = 0, limit = 10 }) {
     return this.ctx.model.User.findAndCountAll({
       offset,
@@ -12,10 +40,7 @@ class User extends Service {
   }
 
   async find(id) {
-    // console.log(this.ctx);
-    // console.log(this.ctx.model);
-    console.log(this.ctx.model.User);
-    const user = await this.ctx.model.User.create({name :' 2323'});
+    const user = await this.ctx.model.User.findByPk(id);
     if (!user) {
       this.ctx.throw(404, 'user not found');
     }

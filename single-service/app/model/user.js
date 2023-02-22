@@ -21,14 +21,9 @@ module.exports = app => {
     created_at: DATE,
     updated_at: DATE,
   });
-  (async() => {
+  (async () => {
     await User.sync({ alter: true });
-  })()
-  //
-  // console.log(app.Sequelize);
-  console.log('app.model.user:' + app.model.User);
-  console.log(User  === app.model.User);
-  // User.create({ name: "Jane" , nick_name: "123123"});
+  })();
   console.log('用户表同步！');
   return User;
 };

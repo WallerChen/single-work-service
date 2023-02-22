@@ -5,7 +5,10 @@
  */
 module.exports = app => {
   const { router, controller } = app;
-  router.get('/', controller.home.index);
+  // 客户端相关
+  router.get('home', '/home/getUserCardlist', controller.home.getUserCardlist);
+
+  router.resources('home', '/home', controller.home);
   router.resources('users', '/users', controller.user);
   router.resources('activity', '/activity', controller.activity);
 };

@@ -8,16 +8,15 @@ function toInt(str) {
 }
 
 class UserController extends Controller {
+  // 用户管理相关
   async index() {
     const ctx = this.ctx;
     const query = {
       limit: toInt(ctx.query.limit),
       offset: toInt(ctx.query.offset),
     };
-    
     // ctx.body = ctx.models;
-    console.log('ctx.model.User:' + ctx.model.User);
-    ctx.body = await ctx.model.User.create({ name: "Jane" , nick_name: "123123"});
+    ctx.body = await ctx.service.user.find();
   }
 
   async show() {
