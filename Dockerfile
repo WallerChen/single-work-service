@@ -10,9 +10,6 @@ RUN apk add ca-certificates
 # 安装依赖包，如需其他依赖包，请到alpine依赖包管理(https://pkgs.alpinelinux.org/packages?name=php8*imagick*&branch=v3.13)查找。
 RUN apk add --update --no-cache nodejs npm
 
-
-
-
 # # 指定工作目录
 WORKDIR /app
 
@@ -27,7 +24,7 @@ RUN npm config set registry https://mirrors.cloud.tencent.com/npm/
 RUN npm install
 
 # 将当前目录（dockerfile所在目录）下所有文件都拷贝到工作目录下（.gitignore中的文件除外）
-# COPY . /app
+COPY ./single-service/* /app
 
 
 # 执行启动命令.
