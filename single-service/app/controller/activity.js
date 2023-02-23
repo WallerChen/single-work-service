@@ -17,15 +17,15 @@ class ActivityController extends Controller {
     ctx.body = await ctx.model.Activity.findAll(query);
   }
 
-  async show() {
-    const ctx = this.ctx;
-    ctx.body = await ctx.model.Activity.findByPk(toInt(ctx.params.id));
-  }
+  // async show() {
+  //   const ctx = this.ctx;
+  //   ctx.body = await ctx.model.Activity.findByPk(toInt(ctx.params.id));
+  // }
 
   async create() {
     const ctx = this.ctx;
-    const { name, age } = ctx.request.body;
-    const activity = await ctx.model.Activity.create(ctx.request.body);
+    const { title, price, content, organizer, images } = ctx.request.body;
+    const activity = await ctx.model.Activity.create({ title, price, content, organizer, images });
     ctx.status = 201;
     ctx.body = activity;
   }
@@ -39,8 +39,8 @@ class ActivityController extends Controller {
       return;
     }
 
-    const { name, age } = ctx.request.body;
-    await activity.update({ name, age });
+    const { title, price, content, organizer, images } = ctx.request.body;
+    await activity.update({ title, price, content, organizer, images });
     ctx.body = activity;
   }
 

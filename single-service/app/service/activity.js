@@ -3,6 +3,7 @@
 const Service = require('egg').Service;
 
 class Activity extends Service {
+  // 运营管理
   async list({ offset = 0, limit = 10, user_id }) {
     const options = {
       offset,
