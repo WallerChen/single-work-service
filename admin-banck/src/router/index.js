@@ -31,11 +31,11 @@ import Layout from '@/layout'
  * all roles can be accessed
  */
 export const constantRoutes = [
-  {
-    path: '/login',
-    component: () => import('@/views/login/index'),
-    hidden: true
-  },
+  // {
+  //   path: '/login',
+  //   component: () => import('@/views/login/index'),
+  //   hidden: true
+  // },
 
   {
     path: '/404',
@@ -52,6 +52,19 @@ export const constantRoutes = [
       name: 'Dashboard',
       component: () => import('@/views/dashboard/index'),
       meta: { title: '班级', icon: 'dashboard' }
+    }]
+  },
+
+
+  {
+    path: '/activity',
+    component: Layout,
+    redirect: '/activity',
+    children: [{
+      path: 'activity',
+      name: 'activity',
+      component: () => import('@/views/activity/index'),
+      meta: { title: '活动', icon: 'dashboard' }
     }]
   },
 

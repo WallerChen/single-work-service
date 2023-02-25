@@ -14,9 +14,16 @@ class UserController extends Controller {
     const query = {
       limit: toInt(ctx.query.limit),
       offset: toInt(ctx.query.offset),
+      cls: ctx.query.cls,
     };
     // ctx.body = ctx.models;
-    ctx.body = await ctx.service.user.find();
+    ctx.body = await ctx.service.user.getUserInfoByGroup(query);
+  }
+  // 模糊查询单个用户
+  async fuzzySearch() {
+    const ctx = this.ctx;
+    console.log('ctx.query.nickName:' + ctx.query.nickName);
+    ctx.body = await ctx.service.user.getUserInfoByNickname(ctx.query.nickName);
   }
 
   async show() {
@@ -41,8 +48,8 @@ class UserController extends Controller {
       return;
     }
 
-    const { name, age } = ctx.request.body;
-    await user.update({ name, age });
+    const { score, desc, is_show } = ctx.request.body;
+    await user.update({ score, desc, is_show });
     ctx.body = user;
   }
 

@@ -1,7 +1,7 @@
 'use strict';
 
 const Service = require('egg').Service;
-
+const { Op } = require('sequelize');
 const { checkUserHaveLook } = require('../utils/auth');
 const { RES } = require('../utils/general');
 
@@ -31,6 +31,28 @@ class User extends Service {
   }
 
   // 运营管理相关
+
+  // 获取不同班级的用户信息
+  async getUserInfoByGroup({ offset = 0, limit = 10, cls = '' }) {
+    return this.ctx.model.User.findAndCountAll({
+      where: {
+        collection: cls,
+      },
+      // offset,
+      // limit,
+      order: [[ 'created_at', 'desc' ], [ 'id', 'desc' ]],
+    });
+  }
+  // 模糊匹配用户昵称
+  async getUserInfoByNickname(nickName) {
+    return this.ctx.model.User.findAndCountAll({
+      where: {
+        nick_name: { [Op.substring]: nickName },
+      },
+      order: [[ 'created_at', 'desc' ], [ 'id', 'desc' ]],
+    });
+  }
+
   async list({ offset = 0, limit = 10 }) {
     return this.ctx.model.User.findAndCountAll({
       offset,

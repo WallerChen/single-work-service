@@ -1,13 +1,12 @@
 <template>
   <div class="dashboard-container">
     <el-row>
-      <el-button size="mini" @click="getInfoByClass('one')">一班</el-button>
-      <el-button size="mini" @click="getInfoByClass('two')">二班</el-button>
-      <el-button size="mini" @click="getInfoByClass('three')">三班</el-button>
-      <el-button size="mini" @click="getInfoByClass('four')">四班</el-button>
+      <el-input placeholder="活动名称" size="mini" class="search"/>
+      <el-input placeholder="活动介绍" size="mini" class="activity-desc"/>
+      <!-- <el-input placeholder="活动图片" size="mini" class="search"/> -->
 
       <el-input placeholder="请输入昵称" size="mini" v-model="searchWord" class="search">
-      <el-button slot="append" icon="el-icon-search" @click="getInfoByNickName()"></el-button>
+      <el-button slot="append" icon="el-icon-search"></el-button>
     </el-input>
     </el-row>
     <el-table
@@ -201,6 +200,16 @@ export default {
 }
 
 .search {
+  margin-left: 30px;
+  width: 400px;
+}
+
+.activity-desc {
+  margin-left: 30px;
+  width: 400px;
+}
+
+.activity-image {
   margin-left: 30px;
   width: 400px;
 }

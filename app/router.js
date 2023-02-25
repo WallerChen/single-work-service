@@ -7,8 +7,15 @@ module.exports = app => {
   const { router, controller } = app;
   // 客户端相关
   router.get('home', '/home/getUserCardlist', controller.home.getUserCardlist);
+  // router.resources('admin/home', '/admin/home', controller.home);
+  router.resources('user', '/user', controller.user);
 
-  router.resources('home', '/home', controller.home);
-  router.resources('users', '/users', controller.user);
+
+  // 运营相关
+  router.resources('admin/users', '/admin/users/resultful', controller.user);
+  router.get('admin/users', '/admin/users/fuzzySearch', controller.user.fuzzySearch);
+  router.get('admin/users', '/admin/users/index', controller.user.index);
+
+
   router.resources('activity', '/activity', controller.activity);
 };

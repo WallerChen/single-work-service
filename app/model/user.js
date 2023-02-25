@@ -20,6 +20,11 @@ module.exports = app => {
     openid: STRING,
     created_at: DATE,
     updated_at: DATE,
+    // 运营管理相关
+    // 是否推送展现
+    is_show: INTEGER,
+    // 质量得分
+    score: INTEGER,
   });
   (async () => {
     await User.sync({ alter: true });

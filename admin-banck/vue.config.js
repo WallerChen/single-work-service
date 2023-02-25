@@ -36,7 +36,20 @@ module.exports = {
       warnings: false,
       errors: true
     },
-    before: require('./mock/mock-server.js')
+      proxy: {
+        "/single": {
+            // 代理名称   凡是使用/api开头的地址都是用此代理
+            target: "http://0.0.0.0:80/", // 需要代理访问的api地址
+            changeOrigin: true, // 允许跨域请求
+            //ws: true,        //如果要代理 websockets，配置这个参数
+            secure: false,  // 如果是https接口，需要配置这个参数
+            pathRewrite: {
+                // 重写路径，替换请求地址中的指定路径
+                "^/single": "/", // 将请求地址中的/api替换为空，也就是请求地址中不会包含/api/
+            },
+        },
+    },
+    // before: require('./mock/mock-server.js')
   },
   configureWebpack: {
     // provide the app's title in webpack's name field, so that
