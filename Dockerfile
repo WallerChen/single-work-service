@@ -41,7 +41,7 @@ RUN npm config set registry https://mirrors.cloud.tencent.com/npm/
 # npm 安装依赖
 RUN  npm install -f
 
-EXPOSE 80
+EXPOSE 7001
 
 # 将当前目录（dockerfile所在目录）下所有文件都拷贝到工作目录下（.gitignore中的文件除外）
 
