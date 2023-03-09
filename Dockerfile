@@ -1,3 +1,19 @@
+# FROM nginx
+
+# RUN apt-get update && apt-get install nodejs -y && apt-get install npm -y && apt-get clean
+
+# # COPY my.conf ./etc/nginx/conf.d/default.conf
+
+# WORKDIR /usr/src/app
+
+# COPY ./ ./usr/src/app
+
+# RUN npm config set registry https://mirrors.tencent.com/npm/ && npm install
+
+# COPY app ./
+
+# CMD ["npm", "start"]
+
 # 二开推荐阅读[如何提高项目构建效率](https://developers.weixin.qq.com/miniprogram/dev/wxcloudrun/src/scene/build/speed.html)
 FROM alpine:3.13
 
