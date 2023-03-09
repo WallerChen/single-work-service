@@ -15,7 +15,7 @@ WORKDIR /single-work-service
 
 # 拷贝包管理文件
 # COPY package*.json ./single-work-service
-COPY ./* /single-work-service
+COPY ./ /single-work-service/
 
 # npm 源，选用国内镜像源以提高下载速度
 RUN npm config set registry https://mirrors.cloud.tencent.com/npm/
