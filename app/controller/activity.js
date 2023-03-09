@@ -11,16 +11,11 @@ class ActivityController extends Controller {
   async index() {
     const ctx = this.ctx;
     const query = {
-      limit: toInt(ctx.query.limit),
-      offset: toInt(ctx.query.offset),
+      order: [[ 'created_at', 'desc' ], [ 'id', 'desc' ]],
     };
-    ctx.body = await ctx.model.Activity.findAll(query);
+    console.log('query:' + JSON.stringify(query));
+    ctx.body = await ctx.model.Activity.findAndCountAll(query);
   }
-
-  // async show() {
-  //   const ctx = this.ctx;
-  //   ctx.body = await ctx.model.Activity.findByPk(toInt(ctx.params.id));
-  // }
 
   async create() {
     const ctx = this.ctx;

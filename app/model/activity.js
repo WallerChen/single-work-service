@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = async app => {
+module.exports = app => {
   const { STRING, INTEGER, DATE, TEXT } = app.Sequelize;
   const Activity = app.model.define('activity', {
     id: { type: INTEGER, primaryKey: true, autoIncrement: true },
@@ -16,7 +16,9 @@ module.exports = async app => {
     created_at: DATE,
     updated_at: DATE,
   });
-  await Activity.sync({ alter: true });
+  (async () => {
+    await Activity.sync({ alter: true });
+  })();
   // console.log(Object.keys(app.Sequelize));
   // console.log(Activity === app.Sequelize.models.activity); // true
   console.log('活动表同步！');
