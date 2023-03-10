@@ -11,14 +11,6 @@ module.exports = appInfo => {
    * @type {Egg.EggAppConfig}
    **/
   const config = exports = {
-    cluster: {
-      listen: {
-        port: 80
-      },
-    },
-    logger: {
-      consoleLevel: 'INFO',
-    }
   };
 
   // use for cookie sign key, should change to your own and keep security
