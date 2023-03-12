@@ -26,6 +26,7 @@
   },
   "scripts": {
     "start": "egg-scripts start --title=egg-server-single-service",
+    "build": "egg-scripts start --title=egg-server-single-service",
     "stop": "egg-scripts stop --title=egg-server-single-service",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
