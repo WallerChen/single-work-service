@@ -5,6 +5,10 @@
  */
 module.exports = app => {
   const { router, controller } = app;
+
+  // 服务是否正常查询
+  router.get('cron', '/api/cron', controller.cron.index);
+
   // 客户端相关
   router.get('home', '/home/getUserCardlist', controller.home.getUserCardlist);
   // router.resources('admin/home', '/admin/home', controller.home);

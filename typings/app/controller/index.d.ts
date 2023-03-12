@@ -4,12 +4,14 @@
 
 import 'egg';
 import ExportActivity = require('../../../app/controller/activity');
+import ExportCron = require('../../../app/controller/cron');
 import ExportHome = require('../../../app/controller/home');
 import ExportUser = require('../../../app/controller/user');
 
 declare module 'egg' {
   interface IController {
     activity: ExportActivity;
+    cron: ExportCron;
     home: ExportHome;
     user: ExportUser;
   }
