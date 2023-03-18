@@ -17,7 +17,7 @@ class User extends Service {
   }
 
   //  小程序客户端相关
-  async cardList({ offset, limit, openid, cls }) {
+  async cardList({ offset, limit, cls }) {
     // const canShow = await checkUserHaveLook(this.ctx, openid, cls);
     // if (canShow) {
       const result = await this.ctx.model.User.findAndCountAll({
