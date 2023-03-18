@@ -8,7 +8,7 @@ class HomeController extends Controller {
   // 卡片展示 首页卡片展示
   async getUserCardlist() {
     const { ctx } = this;
-    const { offset, limit, cls } = ctx.request.body;
+    const { offset, limit, cls } = ctx.query;
     // if (validatorValue({ offset, limit, cls })) {
     ctx.body = await ctx.service.user.cardList({ offset, limit, cls });
     // } else {

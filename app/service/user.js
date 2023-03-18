@@ -26,8 +26,8 @@ class User extends Service {
           collection: cls,
           is_show: 1
         },
-        offset,
-        limit,
+        offset: parseInt(offset),
+        limit: parseInt(limit),
         order: [[ 'score', 'desc' ] ,[ 'created_at', 'desc' ], [ 'id', 'desc' ]],
       });
       RES.data = result;
