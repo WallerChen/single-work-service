@@ -8,6 +8,24 @@ function toInt(str) {
 }
 
 class UserController extends Controller {
+  // //  客户端相关
+  // // 旧接口 判断用户是否存在
+  // async isExsit() {
+  //   // 获取openid
+  //   const {openid = ''} = this.ctx.headers;
+  //   ctx.body =await ctx.service.user.getUser({openid});
+  // }
+  // // 旧接口 增加用户
+  // async addNewUser() {
+  //   const {openid = ''} = this.ctx.headers;
+  //   const {body = {}} = this.ctx; 
+  //   ctx.body =await ctx.service.user.addUser({openid, ...body});
+  // }
+  // // 旧接口 发布到班级
+  // async publicToClass() {
+  //   const {openid = ''} = this.ctx.headers;
+  // }
+
   // 用户管理相关
   async index() {
     const ctx = this.ctx;

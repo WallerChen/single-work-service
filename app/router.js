@@ -13,6 +13,8 @@ module.exports = app => {
   router.get('home', '/home/getUserCardlist', controller.home.getUserCardlist);
   // router.resources('admin/home', '/admin/home', controller.home);
   router.resources('user', '/user', controller.user);
+  // 旧版接口判断用户是否存在
+  // router.resources('user', '/user/exsit', controller.user.isEsit);
 
 
   // 运营相关

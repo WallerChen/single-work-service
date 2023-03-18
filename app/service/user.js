@@ -11,23 +11,29 @@ class User extends Service {
   async getUser({ openid }) {
     return this.ctx.model.User.findOne({ where: { openid } });
   }
+  // 创建一个新用户
+  async addUser(user) {
+    return this.ctx.model.User.create(user);
+  }
+
   //  小程序客户端相关
   async cardList({ offset, limit, openid, cls }) {
-    const canShow = await checkUserHaveLook(this.ctx, openid, cls);
-    if (canShow) {
+    // const canShow = await checkUserHaveLook(this.ctx, openid, cls);
+    // if (canShow) {
       const result = await this.ctx.model.User.findAndCountAll({
         attributes: [ 'nick_name', 'sex', 'desc', 'class', 'image_list' ],
         where: {
           collection: cls,
+          is_show: 1
         },
         offset,
         limit,
-        order: [[ 'created_at', 'desc' ], [ 'id', 'desc' ]],
+        order: [[ 'score', 'desc' ] ,[ 'created_at', 'desc' ], [ 'id', 'desc' ]],
       });
       RES.data = result;
       return RES;
-    }
-    return RES;
+    // }
+    // return RES;
   }
 
   // 运营管理相关
@@ -36,7 +42,7 @@ class User extends Service {
   async getUserInfoByGroup({ offset = 0, limit = 10, cls = '' }) {
     return this.ctx.model.User.findAndCountAll({
       where: {
-        collection: cls,
+        collection: cls
       },
       // offset,
       // limit,
