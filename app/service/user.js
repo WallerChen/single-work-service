@@ -21,7 +21,7 @@ class User extends Service {
     // const canShow = await checkUserHaveLook(this.ctx, openid, cls);
     // if (canShow) {
       const result = await this.ctx.model.User.findAndCountAll({
-        attributes: [ 'nick_name', 'sex', 'desc', 'class', 'image_list' ],
+        attributes: [ 'nick_name', 'sex', 'desc', 'class', 'image_list', 'avatar_url' ],
         where: {
           collection: cls,
           is_show: 1
@@ -35,7 +35,6 @@ class User extends Service {
     // }
     // return RES;
   }
-
   // 运营管理相关
 
   // 获取不同班级的用户信息
