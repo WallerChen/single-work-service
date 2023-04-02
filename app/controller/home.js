@@ -8,9 +8,10 @@ class HomeController extends Controller {
   // 卡片展示 首页卡片展示
   async getUserCardlist() {
     const { ctx } = this;
-    const { offset, limit, cls } = ctx.body;
+    const openid = ctx.header['x-wx-openid'];
+    const { offset, limit, cls } = ctx.request.body;
     if (validatorValue({ offset, limit, cls })) {
-      ctx.body = await ctx.service.user.cardList({ offset, limit, cls });
+      ctx.body = await ctx.service.user.cardList({ offset, limit, cls, openid });
     } else {
       ctx.body = RES_ERROR;
     }
