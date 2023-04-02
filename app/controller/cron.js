@@ -7,7 +7,17 @@ class HelloController extends Controller {
   async syncInfo() {
     const ctx = this.ctx;
     for (const userInfo of userList) {
-      await this.ctx.model.User.create(userInfo);
+      // 判断是否存在过信息
+      let user = await this.ctx.model.User.findOne({ where: { openid: userInfo.openid } });
+      // console.log('user:' + JSON.stringify(user();
+      // 存在则更新用户
+      if(user) {
+        await user.update({desc: user.desc});
+      } else {
+        await this.ctx.model.User.create(userInfo);
+      }
+
+     
     }
     ctx.body = 'hello';
   }
