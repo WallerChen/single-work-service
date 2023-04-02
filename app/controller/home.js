@@ -9,7 +9,7 @@ class HomeController extends Controller {
   async getUserCardlist() {
     const { ctx } = this;
     const openid = ctx.header['x-wx-openid'];
-    const { offset, limit, cls } = ctx.request.body;
+    const { offset, limit, cls } = ctx.query;
     if (validatorValue({ offset, limit, cls })) {
       ctx.body = await ctx.service.user.cardList({ offset, limit, cls, openid });
     } else {

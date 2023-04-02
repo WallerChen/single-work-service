@@ -10,7 +10,7 @@ module.exports = app => {
   router.get('cron', '/syncInfo', controller.cron.syncInfo);
 
   // 客户端相关
-  router.post('home', '/home/getUserCardlist', controller.home.getUserCardlist);
+  router.get('home', '/home/getUserCardlist', controller.home.getUserCardlist);
   router.resources('user', '/user', controller.user);
   // 旧版接口判断用户是否存在
   // router.resources('user', '/user/exsit', controller.user.isEsit);
