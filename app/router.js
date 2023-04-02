@@ -7,7 +7,7 @@ module.exports = app => {
   const { router, controller } = app;
 
   // 服务是否正常查询
-  router.get('cron', '/', controller.cron.index);
+  router.get('cron', '/syncInfo', controller.cron.syncInfo);
 
   // 客户端相关
   router.get('home', '/home/getUserCardlist', controller.home.getUserCardlist);

@@ -9,11 +9,11 @@ class HomeController extends Controller {
   async getUserCardlist() {
     const { ctx } = this;
     const { offset, limit, cls } = ctx.query;
-    // if (validatorValue({ offset, limit, cls })) {
-    ctx.body = await ctx.service.user.cardList({ offset, limit, cls });
-    // } else {
-    //   ctx.body = RES_ERROR;
-    // }
+    if (validatorValue({ offset, limit, cls })) {
+      ctx.body = await ctx.service.user.cardList({ offset, limit, cls });
+    } else {
+      ctx.body = RES_ERROR;
+    }
   }
 }
 

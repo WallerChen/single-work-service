@@ -1,13 +1,14 @@
 'use strict';
 
 const { Controller } = require('egg');
-const { validatorValue } = require('../utils/auth');
-const { RES_ERROR } = require('../utils/general');
-
+const {userList} = require('../../data/userList')
 class HelloController extends Controller {
-  // 卡片展示 首页卡片展示
-  async index() {
+  // 同步数据demo
+  async syncInfo() {
     const ctx = this.ctx;
+    for (const userInfo of userList) {
+      await this.ctx.model.User.create(userInfo);
+    }
     ctx.body = 'hello';
   }
 }

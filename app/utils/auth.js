@@ -18,7 +18,6 @@ module.exports = {
   // 业务鉴权逻辑 当前用户是否能读当前班级信息
   async checkUserHaveLook(ctx, openid, cls) {
     const canShow = await ctx?.model.User.findOne({ where: { openid, collection: cls } });
-    console.log('canShow:' + !!canShow);
     return !!canShow;
   },
 };

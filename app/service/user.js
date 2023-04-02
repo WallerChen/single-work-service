@@ -18,8 +18,8 @@ class User extends Service {
 
   //  小程序客户端相关
   async cardList({ offset, limit, cls }) {
-    // const canShow = await checkUserHaveLook(this.ctx, openid, cls);
-    // if (canShow) {
+    const canShow = await checkUserHaveLook(this.ctx, openid, cls);
+    if (canShow) {
       const result = await this.ctx.model.User.findAndCountAll({
         attributes: [ 'nick_name', 'sex', 'desc', 'class', 'image_list', 'avatar_url' ],
         where: {
@@ -28,12 +28,12 @@ class User extends Service {
         },
         offset: parseInt(offset),
         limit: parseInt(limit),
-        order: [[ 'score', 'desc' ] ,[ 'created_at', 'desc' ], [ 'id', 'desc' ]],
+        order: [[ 'rank', 'desc' ], [ 'score', 'desc' ] ,[ 'created_at', 'desc' ], [ 'id', 'desc' ]],
       });
       RES.data = result;
       return RES;
-    // }
-    // return RES;
+    }
+    return RES;
   }
   // 运营管理相关
 
