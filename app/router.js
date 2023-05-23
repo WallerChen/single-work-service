@@ -12,6 +12,9 @@ module.exports = app => {
   // 客户端相关
   router.get('home', '/home/getUserCardlist', controller.home.getUserCardlist);
   router.resources('user', '/user', controller.user);
+  router.post('miniapp', '/miniapp/update', controller.miniapp.update);
+  router.post('miniapp', '/miniapp/userinfo', controller.miniapp.index);
+
   // 旧版接口判断用户是否存在
   // router.resources('user', '/user/exsit', controller.user.isEsit);
 

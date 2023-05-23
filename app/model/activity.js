@@ -16,11 +16,11 @@ module.exports = app => {
     created_at: DATE,
     updated_at: DATE,
   });
-  (async () => {
-    await Activity.sync({ alter: true });
-  })();
-  // console.log(Object.keys(app.Sequelize));
-  // console.log(Activity === app.Sequelize.models.activity); // true
-  console.log('活动表同步！');
+  // (async () => {
+  //   await Activity.sync({ alter: true });
+  // })();
+  // // console.log(Object.keys(app.Sequelize));
+  // // console.log(Activity === app.Sequelize.models.activity); // true
+  // console.log('活动表同步！');
   return Activity;
 };

@@ -12,12 +12,10 @@ class HelloController extends Controller {
       // console.log('user:' + JSON.stringify(user();
       // 存在则更新用户
       if(user) {
-        await user.update({desc: user.desc});
+        await user.update({nick_name: user.nick_name ,desc: user.desc});
       } else {
         await this.ctx.model.User.create(userInfo);
       }
-
-     
     }
     ctx.body = 'hello';
   }
